@@ -16,3 +16,7 @@ node /^web/ {
  node /^db/ {
     include role::db_server
  }
+
+node master2.puppet.vm {
+    include role::master2
+}
