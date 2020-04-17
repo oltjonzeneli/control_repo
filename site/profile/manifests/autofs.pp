@@ -13,6 +13,6 @@ class profile::autofs {
             device => "192.168.32.182:/var/nfsshare",
             fstype => 'nfs',
             options => 'rw',
-            require => [File['/nfs/readonly'],Mount['/nfs/share']]
+          
     }
 }
