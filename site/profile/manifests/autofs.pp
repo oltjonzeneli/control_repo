@@ -4,7 +4,7 @@ class profile::autofs {
             ensure => installed,
         }
  
-        file { '/mnt/nfs:
+        file { '/mnt/nfs':
             ensure => directory,
         }
         mount { '/mnt/nfs':
