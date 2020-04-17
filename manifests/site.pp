@@ -1,6 +1,6 @@
 node default {
 }
-node 'master.puppet.vm' {
+node 'master2.puppet.vm' {
    include role::master_server
     file {'/etc/secret_password.txt':
         ensure => file,
@@ -17,6 +17,6 @@ node /^web/ {
     include role::db_server
  }
 
-#node master.puppet.vm {
- #   include role::master2
-#}
+node master.puppet.vm {
+   include role::master_server
+}
