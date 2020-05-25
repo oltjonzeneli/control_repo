@@ -4,6 +4,9 @@ node default {
     content => 'This is a Readme',
     owner => 'root',
   }
+  
+  notify { 'This is a production environment':
+  }
 }
 
 node 'master.puppet.vm'                                     { include role::master_server }
