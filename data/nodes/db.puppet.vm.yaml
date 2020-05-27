@@ -5,4 +5,4 @@ accounts::user_list:
                 gid: 4714
                 shell: /bin/bash
                 create_group: true
-                password   : phase3
+                password   : 'phase3'
