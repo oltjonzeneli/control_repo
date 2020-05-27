@@ -20,6 +20,10 @@ node /^web/ {
 
 node master.puppet.vm {
    include role::master_server
+   file {'/etc/secret_password.txt':
+	ensure => file,
+	content => lookup ('secret_password')
+	}	
 }
 =======
   file { '/root/README':
@@ -35,3 +39,4 @@ node master.puppet.vm {
 node /^web/                                                 { include role::app_server }
 node /^db/                                                  { include role::db_server }
 >>>>>>> a65d8544fb597be7118caa8abb85db12637699f9
+
