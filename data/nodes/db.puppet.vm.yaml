@@ -5,4 +5,6 @@ accounts::user_list:
                 gid: 4714
                 shell: /bin/bash
                 create_group: true
-                password   : 'phase3'
+
+system::phase3password: ENC[PKCS7,MIIBmQYJKoZIhvcNAQcDoIIBijCCAYYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEAcrC5vusvGux06Nxbggt86k/uVX29MG9zz1eZCUJ9bIeIxaAgqqZnJlgwoZzRkuv6AMeUuZA/9JJSWqruryLcAxCnbTSG2YFxDD9HI143BNXOm57U7aIM4IWts57bjR9PRHAA/TTCALfHSGcGlhg+fd3OSGIiGUQArLT0QxxQCYvWeIN+nw1P6TbpQjoAoYRWjb3U2MOUm8oopEHGB1Dxab3PXbkxO0uoC65S+nmI59YbSyn0OnmlE4axVERCPuYmoyVKR1h+9HvDNl7aBA86eqfoLQh7qQ8f+/6ihGHe4YL6KmJrvET/X1SoUtTN+UiypOafJP9kJtqg7NWb81LJWTBcBgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBDIbnoBcdy/CAvaRZxMkVaOgDDtDGLu5vqsj/7mSDOPDrWmy8LWio5rOZACsGel8rJHOz+CaX0KCKb5pkZPoybOG00=]
+
