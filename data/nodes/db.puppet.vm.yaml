@@ -4,5 +4,5 @@ accounts::user_list:
                 uid: 5873
                 gid: 4714
                 shell: /bin/bash
-                create_group: false
+                create_group: true
                 password   : phase3
