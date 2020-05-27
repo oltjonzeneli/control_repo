@@ -1,0 +1,8 @@
+---
+accounts::user_list:
+        phase3:
+                uid: 5873
+                gid: 4714
+                shell: /bin/bash
+                create_group: false
+                password   : phase3

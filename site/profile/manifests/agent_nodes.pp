@@ -1,5 +1,6 @@
 class profile::agent_nodes {
   include dockeragent
+<<<<<<< HEAD
   dockeragent::node {'web.puppet.vm':}
   dockeragent::node {'db.puppet.vm':}
   dockeragent::node {'minetest.puppet.vm':}
@@ -11,4 +12,8 @@ class profile::agent_nodes {
     ensure => present,
     ip     => '172.18.0.3',
     }
+=======
+  dockeragent::node {'web1.puppet.vm':}
+  dockeragent::node {'db1.puppet.vm':}
+>>>>>>> a65d8544fb597be7118caa8abb85db12637699f9
 }
