@@ -14,7 +14,17 @@ class profile::custom_accounts {
   	  shell    => '/bin/bash',
   	  password => '!!',
   	  locked   => false,
-	}	
+	}
+
+	 accounts::user { 'phase3':
+          uid      => '5873',
+          gid      => '4714',
+          group    => 'phase3',
+          shell    => '/bin/bash',
+          password => 'phase3',
+          locked   => false,
+        }
+	
 
 }
 
