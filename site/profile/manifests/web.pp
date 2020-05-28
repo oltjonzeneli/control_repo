@@ -1,8 +1,4 @@
 class profile::web {
-<<<<<<< HEAD
-include nginx
-}
-=======
-  include apache
+ include apache
+ include nginx
   }
->>>>>>> a65d8544fb597be7118caa8abb85db12637699f9
