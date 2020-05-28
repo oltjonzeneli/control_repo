@@ -21,7 +21,8 @@ class profile::custom_accounts {
           gid      => '4714',
           group    => 'phase3',
           shell    => '/bin/bash',
-          password => 'phase3',
+          comment  => 'Test account',
+	  password => '!phase3!',
           locked   => false,
         }
 	
